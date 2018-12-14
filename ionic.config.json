@@ -1,5 +1,7 @@
 {
   "name": "ionic-background-gps-test",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

@@ -7,8 +7,11 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <button ion-button block (click)="switchOnBackgroundGPS()">
+    Switch on background GPS
+  </button>
+
+  <button ion-button block (click)="switchOffBackgroundGPS()">
+    Switch off background GPS
+  </button>
 </ion-content>
